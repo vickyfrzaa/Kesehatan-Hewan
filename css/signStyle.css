@@ -1,0 +1,157 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background: #fbf3ff;
+} 
+.container {
+  display: grid;
+  max-width: 800px;
+  padding-top: 100px;
+
+} 
+
+.bg-primary {
+  border-radius: 25px;
+}
+
+
+
+.box-regis {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  height: 50%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.box-regis header {
+  color: #369;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.row{
+height: 100%;
+} 
+.myCard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+} 
+.box-login header {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.box {
+  position: relative;
+  margin: 20px;
+  margin-bottom: 100px;
+} 
+.box-regis .myInput {
+  width: 530px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.box-regis .myInput:focus {
+  outline: none;
+} 
+.myForm {
+  position: relative;
+  margin-top: 20px;
+} 
+.box-regis .btn {
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+
+
+
+.box-regis .btn:hover {
+  background: #369;
+}
+.box-regis .btn:focus {
+  outline: none;
+} 
+.box-regis .fas {
+  position: relative;
+  color: #369;
+  left: 36px;
+} 
+.btn_out {
+  background: transparent;
+  color: #fff;
+  width: 120px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+} 
+.btn_out:hover {
+  border: 2px solid#eecbff;
+} 
+.btn_out:focus {
+  outline: none;
+}
+
+.box-login .myInput {
+  width: 230px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+.box-login .myInput:focus {
+  outline: none;
+} 
+
+.box-login .btn {
+  background: #fbf3ff;
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+.box-login .btn:hover {
+  background: #369;
+}
+.box-login .btn:focus {
+  outline: none;
+} 
+.box-login .fas {
+  position: relative;
+  color: #369;
+  left: 36px;
+}
+
+
+
+
