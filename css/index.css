@@ -1,0 +1,318 @@
+html	{
+	scroll-behavior: smooth;
+}
+
+/*section*/
+.section {
+	min-height: 420px;
+}
+
+/*pt pb navbar*/
+#about {
+	padding-bottom: 50px;
+  	padding-top: 70px;
+}
+
+#dokter {
+	padding-bottom: 50px;
+ 	padding-top: 70px;
+ 	
+}
+
+#petshop {
+	padding-bottom: 50px;
+ 	padding-top: 70px;
+ 	
+}
+
+#hewan {
+	padding-bottom: 50px;
+  	padding-top: 70px;
+}
+
+.navbar {
+position: fixed;
+transition:ease all 1s;
+-webkit-transition:ease all 1s;
+-moz-transition:ease all 1s;
+-o-transition:ease all 1s;
+}
+
+
+.tm-font-big {
+  font-size: 1.25rem;
+}
+
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.nav-link {
+	margin-right: 30px;
+}
+
+/*.nav-link:hover::after {
+	content: '';
+	display: block;
+	border-bottom: 3px solid #0B63DC;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}*/
+
+/*utility navbar login*/
+.tombol {
+	border-radius: 40px;
+}
+
+.navbar {
+	background: white;
+}
+
+.nav-link:hover::after {
+	
+	display: block;
+	border-bottom: 3px solid #0B63DC;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+}
+
+.navbar.scroll {
+  background-color: white;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.navbar-brand:hover,
+.navbar.scroll .navbar-brand:hover {
+  color: #38B;
+}
+
+.navbar.scroll .navbar-brand {
+  color: #369;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+.nav-link {
+  color: #00ff00;
+}
+
+.navbar.scroll .nav-link {
+  color: #369;
+}
+
+.navbar.scroll .nav-link:hover,
+.navbar.scroll .nav-link.current,
+.nav-link:hover {
+  color: #FFF;
+  background-color: #369;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+  padding-top: 6px;
+}
+
+
+/*.form-control {
+	width: 200px;
+	margin: 10px auto;
+}*/
+
+/*jumbotron*/
+/*.jumbotron {
+	background-image: 
+	background-size: cover;
+	height: 770px;
+	text-align: center;
+}*/
+
+.jumbotron .display-4 {
+	color: black;
+}
+
+/*slide*/
+
+
+.carousel-item {
+	height: 620px;
+	
+}
+
+.carousel-item img {
+	margin-top: 65px;
+}
+
+.carousel-item .display-4 {
+	margin-top: -400px;
+}
+
+
+
+.nama-dokter {
+	text-align: center;
+}
+
+.nama-dokter .thumnail {
+	opacity: 0;
+
+}
+
+.nama-dokter .thumnail.muncul {
+	opacity: 1;
+}
+
+.nama-petshop {
+	text-align: center;
+}
+
+.nama-hewan {
+	text-align: center;
+}
+
+.modal-body {
+	text-align: left;
+}
+
+h5 {
+	margin-top: 20px;
+}
+
+
+
+/*.carousel-inner {
+	height: 400px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 0-100px;
+}*/
+
+/*.carousel-inner img {
+	width: 200px;
+	border:10px solid;
+}*/
+
+
+/*desktop version*/
+@media (min-width: 992px) {
+	
+	 .nav-link {
+	 	
+		margin-right: 30px;
+	}
+
+	/*.carousel-inner {
+		margin-top: -75px;
+		height: 630px;
+	}*/
+
+	.navbar {
+		background: transparent;
+	}
+
+	.carousel-item img {
+		margin-top: -65px;
+	}
+
+
+}
+
+/*kontak*/
+#kontak {
+  color: white;
+  background-color: #001828;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 1px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 70px;
+}
+
+.contact-item {
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+/*.contact-item .item-link i {
+	margin-right: 25px;
+}*/
+
+.item-link {
+  display: flex;
+  align-items: center;
+}
+
+.item-link i,
+.item-link span {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.item-link:hover i,
+.item-link:hover span {
+  color: #3496d8;
+}
+
+.tm-input {
+	margin: 0 0 20px 0;
+	width: 90%;
+  padding: 8px 20px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+}
+
+.tm-btn-submit {
+	font-size: 0.9em;
+	color: #fff;
+	background-color: #369;
+	width: 50%;
+	margin-bottom: 60px;
+}
+
+.tm-btn-submit:hover {
+	color: #fff;
+	background-color: #38B;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+.scroll {
+  background-color:#333;
+  height: 70px;
+}
